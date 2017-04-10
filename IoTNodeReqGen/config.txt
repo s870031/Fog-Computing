@@ -1,0 +1,17 @@
+dc21.utdallas.edu
+8000
+500
+4
+6
+dc12.utdallas.edu
+5001
+dc13.utdallas.edu
+5002
+dc14.utdallas.edu
+5003
+dc15.utdallas.edu
+5004
+dc16.utdallas.edu
+5005
+dc17.utdallas.edu
+5006

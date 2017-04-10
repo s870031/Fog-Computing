@@ -1,0 +1,103 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ClientThread	Node.java	/^	public ClientThread(Socket cSocket, Node node){$/;"	m	class:ClientThread
+ClientThread	Node.java	/^class ClientThread extends Thread{	$/;"	c
+ConfigFile	ConfigReader.java	/^	public String ConfigFile;$/;"	f	class:ConfigReader
+ConfigFile	Main.java	/^	public static String ConfigFile;$/;"	f	class:Main
+ConfigReader	ConfigReader.java	/^	public ConfigReader(String ConfigFile){$/;"	m	class:ConfigReader
+ConfigReader	ConfigReader.java	/^public class ConfigReader$/;"	c
+FogMsgThread	Main.java	/^	public FogMsgThread (Node node) {$/;"	m	class:FogMsgThread
+FogMsgThread	Main.java	/^class FogMsgThread extends Thread {$/;"	c
+FogProtocol	FogProtocol.java	/^	public void FogProtocol (Node node){$/;"	m	class:FogProtocol
+FogProtocol	FogProtocol.java	/^public class FogProtocol {$/;"	c
+IOTMsgThread	Main.java	/^	public IOTMsgThread (Node node) {$/;"	m	class:IOTMsgThread
+IOTMsgThread	Main.java	/^class IOTMsgThread extends Thread {$/;"	c
+InputStreamThread	Node.java	/^	public InputStreamThread(Node node, Socket  clientSocket) {$/;"	m	class:InputStreamThread
+InputStreamThread	Node.java	/^class InputStreamThread extends Thread{$/;"	c
+Main	Main.java	/^public class Main {$/;"	c
+Message	Message.java	/^public class Message implements Serializable{$/;"	c
+Node	Node.java	/^	public Node(int nodeID){$/;"	m	class:Node
+Node	Node.java	/^public class Node$/;"	c
+NumOfNode	Main.java	/^	public static int nodeID, NumOfNode, maxResponseTime;	$/;"	f	class:Main
+ProcessThread	Main.java	/^	public ProcessThread (Node node) {$/;"	m	class:ProcessThread
+ProcessThread	Main.java	/^class ProcessThread extends Thread {$/;"	c
+R	Node.java	/^	ConfigReader R = new ConfigReader(Main.ConfigFile);$/;"	f	class:ClientThread
+R	Node.java	/^	ConfigReader R = new ConfigReader(Main.ConfigFile);$/;"	f	class:Node
+RequestMsg	RequestMsg.java	/^	public RequestMsg(String msg) {$/;"	m	class:RequestMsg
+RequestMsg	RequestMsg.java	/^public class RequestMsg extends Message implements Serializable{$/;"	c
+SendStateMessageThread	Main.java	/^	public SendStateMessageThread (Node node, int period){$/;"	m	class:SendStateMessageThread
+SendStateMessageThread	Main.java	/^class SendStateMessageThread extends Thread {$/;"	c
+ServerThread	Node.java	/^	public ServerThread(Node node){$/;"	m	class:ServerThread
+ServerThread	Node.java	/^class ServerThread extends Thread{$/;"	c
+StateMsg	StateMsg.java	/^	public StateMsg(int nodeID, int queueingTime) {$/;"	m	class:StateMsg
+StateMsg	StateMsg.java	/^public class StateMsg extends Message implements Serializable{$/;"	c
+UDPPort	Node.java	/^	public int UDPPort;            \/\/ node UDP listen port$/;"	f	class:Node
+UDPServerSocketListen	Node.java	/^	public void UDPServerSocketListen() throws Exception{$/;"	m	class:Node
+buildFogConnection	Node.java	/^	public void buildFogConnection() {$/;"	m	class:Node
+cSocket	Node.java	/^	Socket cSocket; \/\/ Client Socket$/;"	f	class:ClientThread
+channels	Node.java	/^	HashMap<Integer,Socket> channels = new HashMap<Integer,Socket>();$/;"	f	class:Node
+clientSocket	Node.java	/^	Socket clientSocket;$/;"	f	class:InputStreamThread
+clientSocketConnect	Node.java	/^	public void clientSocketConnect(int ID) {$/;"	m	class:Node
+forwardLimit	RequestMsg.java	/^	int forwardLimit; \/\/ Forward limit$/;"	f	class:RequestMsg
+forwardRequestMsg	FogProtocol.java	/^	public static void forwardRequestMsg (Node node, int dstID, RequestMsg message) {$/;"	m	class:FogProtocol
+getConnectTable	ConfigReader.java	/^	public int [][] getConnectTable(){$/;"	m	class:ConfigReader
+getGeneralInfo	ConfigReader.java	/^	public int [] getGeneralInfo(){$/;"	m	class:ConfigReader
+getIDFromHostName	ConfigReader.java	/^	public int getIDFromHostName(String hostName){$/;"	m	class:ConfigReader
+getMaxResponseTime	ConfigReader.java	/^	public int getMaxResponseTime(int nodeID){$/;"	m	class:ConfigReader
+getNodeHostName	ConfigReader.java	/^	public String getNodeHostName(int nodeID){$/;"	m	class:ConfigReader
+getNodeListenPort	ConfigReader.java	/^	public int [] getNodeListenPort(int nodeID){$/;"	m	class:ConfigReader
+getNodeNeighbor	ConfigReader.java	/^	public int [] getNodeNeighbor(int nodeID){$/;"	m	class:ConfigReader
+getQueueingTime	FogProtocol.java	/^	public static int getQueueingTime() {$/;"	m	class:FogProtocol
+handleRequestMessage	FogProtocol.java	/^	public static synchronized void handleRequestMessage(Node node, RequestMsg message) {$/;"	m	class:FogProtocol
+handleStateMessage	FogProtocol.java	/^	public static void handleStateMessage(Node node, StateMsg message) {$/;"	m	class:FogProtocol
+hostName	Node.java	/^	String hostName;  $/;"	f	class:ServerThread
+hostName	Node.java	/^	public String hostName;        \/\/ node host name$/;"	f	class:Node
+ipaddr	RequestMsg.java	/^	String ipaddr;    \/\/ Ip address$/;"	f	class:RequestMsg
+lastNodeID	RequestMsg.java	/^	int lastNodeID; \/\/ record the last hop node ID;$/;"	f	class:RequestMsg
+listenPort	Node.java	/^	public int listenPort;         \/\/ node socket listen port$/;"	f	class:Node
+main	Main.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:Main
+maxResponseTime	Main.java	/^	public static int nodeID, NumOfNode, maxResponseTime;	$/;"	f	class:Main
+maxResponseTime	Node.java	/^	public int maxResponseTime;    \/\/ Max Response Time$/;"	f	class:Node
+msg	Message.java	/^	String msg;$/;"	f	class:Message
+msg	RequestMsg.java	/^	String msg;       \/\/ record the orignal message plus the process log in fog node$/;"	f	class:RequestMsg
+neighbor	Node.java	/^	public int[] neighbor = null;  \/\/ node neighbors$/;"	f	class:Node
+neighborResponseTime	Node.java	/^	public int [] neighborResponseTime = null; \/\/ record current response time$/;"	f	class:Node
+node	FogProtocol.java	/^	Node node;$/;"	f	class:FogProtocol
+node	Main.java	/^	Node node;$/;"	f	class:FogMsgThread
+node	Main.java	/^	Node node;$/;"	f	class:IOTMsgThread
+node	Main.java	/^	Node node;$/;"	f	class:ProcessThread
+node	Main.java	/^	Node node;$/;"	f	class:SendStateMessageThread
+node	Node.java	/^	Node node;$/;"	f	class:ClientThread
+node	Node.java	/^	Node node;$/;"	f	class:InputStreamThread
+node	Node.java	/^	Node node;$/;"	f	class:ServerThread
+nodeID	Main.java	/^	public static int nodeID, NumOfNode, maxResponseTime;	$/;"	f	class:Main
+nodeID	Node.java	/^	int nodeID; $/;"	f	class:ServerThread
+nodeID	Node.java	/^	public int nodeID;             \/\/ node ID$/;"	f	class:Node
+nodeID	StateMsg.java	/^	int nodeID;$/;"	f	class:StateMsg
+oStream	Node.java	/^	HashMap<Integer,ObjectOutputStream> oStream = new HashMap<Integer,ObjectOutputStream>();$/;"	f	class:Node
+period	Main.java	/^	int period;$/;"	f	class:SendStateMessageThread
+periodSendStateMsg	FogProtocol.java	/^	public static void periodSendStateMsg(Node node, int period) {$/;"	m	class:FogProtocol
+port	Node.java	/^	int port; $/;"	f	class:ServerThread
+port	RequestMsg.java	/^	int port;         \/\/ Port$/;"	f	class:RequestMsg
+processMessage	FogProtocol.java	/^	public static void processMessage(Node node) {$/;"	m	class:FogProtocol
+queueingTime	StateMsg.java	/^	int queueingTime;$/;"	f	class:StateMsg
+receiveFogMessage	FogProtocol.java	/^	public static void receiveFogMessage(Node node, ObjectInputStream ois) {$/;"	m	class:FogProtocol
+receiveIOTMessage	FogProtocol.java	/^	public static void receiveIOTMessage(Node node, DatagramSocket serverSocket) {$/;"	m	class:FogProtocol
+requestMsgQueue	Main.java	/^	public static ConcurrentLinkedQueue<RequestMsg> requestMsgQueue \/\/ Store request message which is waiting to be served$/;"	f	class:Main
+run	Main.java	/^	public void run() {$/;"	m	class:FogMsgThread
+run	Main.java	/^	public void run() {$/;"	m	class:IOTMsgThread
+run	Main.java	/^	public void run() {$/;"	m	class:ProcessThread
+run	Main.java	/^	public void run() {$/;"	m	class:SendStateMessageThread
+run	Node.java	/^	public void run() {$/;"	m	class:ClientThread
+run	Node.java	/^	public void run() {$/;"	m	class:InputStreamThread
+run	Node.java	/^	public void run(){$/;"	m	class:ServerThread
+sendMsgToIOTNode	FogProtocol.java	/^	public static void sendMsgToIOTNode (String IOTip, int port, String message) {$/;"	m	class:FogProtocol
+sendStateMsg	FogProtocol.java	/^	public static void sendStateMsg (Node node, int dstID, StateMsg message) {$/;"	m	class:FogProtocol
+serverSocketListen	Node.java	/^	public void serverSocketListen() {				$/;"	m	class:Node
+socketListening	Node.java	/^	public boolean socketListening = false;$/;"	f	class:Node
+sqno	RequestMsg.java	/^	int sqno;         \/\/ Sequence number$/;"	f	class:RequestMsg
+type	RequestMsg.java	/^	int type;         \/\/ Processing time$/;"	f	class:RequestMsg

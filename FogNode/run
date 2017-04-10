@@ -1,0 +1,2 @@
+#!/bin/bash
+./compile.sh && ./cleanup.sh config.txt && ./launcher.sh config.txt

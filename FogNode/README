@@ -1,0 +1,33 @@
+CS6390 Final Project
+-----------------
+Author: Hsin-Hua Chen, Vatsal Dinesh Tiwari, Vikram Gaur
+
+Files/Folders:
+1. src/: Source code folder
+         files: Main.java, Node.java, ConfigReader.java, Node.java
+		 Message.java, StateMsg.java, RequestMsg.java
+2. bin/: Class folder
+3. launcher.sh: Launch "Main" on remote device according to config file
+4. Cleanup.sh: kill all processes on remote device according to config file
+5. Compile.sh: run compile script
+6. run.sh: compile the project and run the program
+
+Compiling instructions:
+1. Let configuration file, launcher script, cleanup script, 
+   src folder, bin folder in the same directory.
+2. Run command "javac -d bin src/*" or simply run compile.sh it will create
+   Byte code in bin folder.
+
+Running instruction:
+1. Simply run command "run.sh" in project folder. it will compile the source
+   code and run the program.
+2. Run launcher.sh with configuration file as parameter:
+        sh launcher.sh [Configuration File Name]
+3. To End program, Run cleanup.sh with config file as parameter:
+        sh cleanup.sh [Configuation File Name]
+
+TODO:
+Missed requirements that TA suggest after Final Demo:
+1. Prevent loop: record the forwarding path in message.
+2. The message reqponse to IOT node: The forward event should
+   print not only reponse time but process time + queueing time.
